@@ -9,24 +9,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var event_service_1 = require("../Shared/event.service");
 var router_1 = require("@angular/router");
-var EventDetailsComponent = (function () {
-    function EventDetailsComponent(eventService, route) {
+var event_service_1 = require("../Shared/event.service");
+var EventRouteActivator = (function () {
+    function EventRouteActivator(eventService, router) {
         this.eventService = eventService;
-        this.route = route;
+        this.router = router;
     }
-    EventDetailsComponent.prototype.ngOnInit = function () {
-        this.event = this.eventService.getEvent(+this.route.snapshot.params['id']);
+    EventRouteActivator.prototype.canActivate = function (route) {
+        var eventExist = !!this.eventService.getEvent(+route.params['id']);
+        if (!eventExist) {
+            this.router.navigate(['/404']);
+        }
+        return eventExist;
     };
-    return EventDetailsComponent;
+    return EventRouteActivator;
 }());
-EventDetailsComponent = __decorate([
-    core_1.Component({
-        templateUrl: "/app/assets/events/event-details/event-details.component.html",
-        styles: ["\n        .container {padding-left: 20px; padding-right: 20px;}\n        .event-image {height: 100px}\n    "]
-    }),
-    __metadata("design:paramtypes", [event_service_1.EventService, router_1.ActivatedRoute])
-], EventDetailsComponent);
-exports.EventDetailsComponent = EventDetailsComponent;
-//# sourceMappingURL=event-details.component.js.map
+EventRouteActivator = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [event_service_1.EventService, router_1.Router])
+], EventRouteActivator);
+exports.EventRouteActivator = EventRouteActivator;
+//# sourceMappingURL=error-route-activator.service.js.map

@@ -9,18 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var NavBarComponent = (function () {
-    function NavBarComponent() {
+var event_service_1 = require("./Shared/event.service");
+var EventsListResolver = (function () {
+    function EventsListResolver(eventService) {
+        this.eventService = eventService;
     }
-    return NavBarComponent;
+    EventsListResolver.prototype.resolve = function () {
+        return this.eventService.getEvents().map(function (events) { return events; });
+    };
+    return EventsListResolver;
 }());
-NavBarComponent = __decorate([
-    core_1.Component({
-        selector: 'nav-bar',
-        templateUrl: 'app/assets/nav/navbar.component.html',
-        styles: ["\n        .nav.navbar-nav {font-size: 15px}\n        #searchForm {margin-right: 100px}\n        @media (max-width: 1200px) { #searchForm {display:none }}\n        li > a.active {color: orange;}\n    "],
-    }),
-    __metadata("design:paramtypes", [])
-], NavBarComponent);
-exports.NavBarComponent = NavBarComponent;
-//# sourceMappingURL=navbar.component.js.map
+EventsListResolver = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [event_service_1.EventService])
+], EventsListResolver);
+exports.EventsListResolver = EventsListResolver;
+//# sourceMappingURL=events-list-resolver.service.js.map

@@ -9,24 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var event_service_1 = require("../Shared/event.service");
 var router_1 = require("@angular/router");
-var EventDetailsComponent = (function () {
-    function EventDetailsComponent(eventService, route) {
-        this.eventService = eventService;
-        this.route = route;
+var CreateEventComponent = (function () {
+    function CreateEventComponent(router) {
+        this.router = router;
+        this.isDirty = true;
     }
-    EventDetailsComponent.prototype.ngOnInit = function () {
-        this.event = this.eventService.getEvent(+this.route.snapshot.params['id']);
+    CreateEventComponent.prototype.cancel = function () {
+        this.router.navigate(['/events']);
     };
-    return EventDetailsComponent;
+    return CreateEventComponent;
 }());
-EventDetailsComponent = __decorate([
+CreateEventComponent = __decorate([
     core_1.Component({
-        templateUrl: "/app/assets/events/event-details/event-details.component.html",
-        styles: ["\n        .container {padding-left: 20px; padding-right: 20px;}\n        .event-image {height: 100px}\n    "]
+        template: "\n        <h1>New Event</h1>\n        <hr>\n        <div class=\"col-md-6\">\n            <h3>[Create Event Form will go here]</h3>\n            <br/>\n            <br/>\n            <button type=\"submit\" class=\"btn btn-primary\">Save</button>\n            <button type=\"button\" class=\"btn btn-default\" (click)=\"cancel()\">Cancel</button>\n        </div>\n    "
     }),
-    __metadata("design:paramtypes", [event_service_1.EventService, router_1.ActivatedRoute])
-], EventDetailsComponent);
-exports.EventDetailsComponent = EventDetailsComponent;
-//# sourceMappingURL=event-details.component.js.map
+    __metadata("design:paramtypes", [router_1.Router])
+], CreateEventComponent);
+exports.CreateEventComponent = CreateEventComponent;
+//# sourceMappingURL=create-event.component.js.map

@@ -9,18 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var NavBarComponent = (function () {
-    function NavBarComponent() {
+var Error404Component = (function () {
+    function Error404Component() {
     }
-    return NavBarComponent;
+    return Error404Component;
 }());
-NavBarComponent = __decorate([
+Error404Component = __decorate([
     core_1.Component({
-        selector: 'nav-bar',
-        templateUrl: 'app/assets/nav/navbar.component.html',
-        styles: ["\n        .nav.navbar-nav {font-size: 15px}\n        #searchForm {margin-right: 100px}\n        @media (max-width: 1200px) { #searchForm {display:none }}\n        li > a.active {color: orange;}\n    "],
+        template: "\n    <h1 class=\"errorMessage\">404'd</h1>\n  ",
+        styles: ["\n    .errorMessage { \n      margin-top:150px; \n      font-size: 170px;\n      text-align: center; \n    }"]
     }),
     __metadata("design:paramtypes", [])
-], NavBarComponent);
-exports.NavBarComponent = NavBarComponent;
-//# sourceMappingURL=navbar.component.js.map
+], Error404Component);
+exports.Error404Component = Error404Component;
+//# sourceMappingURL=404.componetn.js.map
