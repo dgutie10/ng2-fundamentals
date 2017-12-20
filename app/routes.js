@@ -1,5 +1,5 @@
 "use strict";
-var index_1 = require("./assets/events/index");
+var index_1 = require("./events/index");
 var _404_componetn_1 = require("./errors/404.componetn");
 exports.appRoutes = [
     { path: 'events/new', component: index_1.CreateEventComponent, canDeactivate: ['canDeactivateCreateEvent'] },
@@ -7,6 +7,7 @@ exports.appRoutes = [
     { path: 'events/:id', component: index_1.EventDetailsComponent, canActivate: [index_1.EventRouteActivator] },
     { path: '404', component: _404_componetn_1.Error404Component },
     { path: '', redirectTo: '/events', pathMatch: 'full' },
-    { path: 'user', loadChildren: 'app/assets/users/user.module#UserModule' }
+    { path: 'user', loadChildren: 'app/users/user.module#UserModule' },
+    { path: 'events/session/new', component: index_1.CreateSessionComponent }
 ];
 //# sourceMappingURL=routes.js.map
