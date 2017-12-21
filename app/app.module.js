@@ -40,7 +40,8 @@ AppModule = __decorate([
             index_1.EventDetailsComponent,
             index_1.CreateEventComponent,
             _404_componetn_1.Error404Component,
-            index_1.CreateSessionComponent
+            index_1.CreateSessionComponent,
+            index_1.SessionListComponent
         ],
         providers: [
             index_1.EventService,

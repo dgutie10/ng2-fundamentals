@@ -13,6 +13,8 @@ var forms_1 = require("@angular/forms");
 var index_1 = require("../Shared/index");
 var CreateSessionComponent = (function () {
     function CreateSessionComponent() {
+        this.saveNewSession = new core_1.EventEmitter();
+        this.cancelSaveSession = new core_1.EventEmitter();
         this.isDirty = true;
     }
     CreateSessionComponent.prototype.ngOnInit = function () {
@@ -40,12 +42,24 @@ var CreateSessionComponent = (function () {
             id: 999,
             voters: []
         };
-        console.log(session);
+        this.saveNewSession.emit(session);
+    };
+    CreateSessionComponent.prototype.cancel = function () {
+        this.cancelSaveSession.emit();
     };
     return CreateSessionComponent;
 }());
+__decorate([
+    core_1.Output(),
+    __metadata("design:type", Object)
+], CreateSessionComponent.prototype, "saveNewSession", void 0);
+__decorate([
+    core_1.Output(),
+    __metadata("design:type", Object)
+], CreateSessionComponent.prototype, "cancelSaveSession", void 0);
 CreateSessionComponent = __decorate([
     core_1.Component({
+        selector: "create-session",
         templateUrl: "app/events/event-details/create-session.component.html",
         styles: ["\n        em {float:right; color:#E05C65; padding-left:10px;}\n        .error input, .error select, .error textarea {background-color: #E3C3C5}\n        .error ::-webkit-input-placeholder{color: #999}\n        .error ::-moz-placeholder{color: #999}\n        .error :-moz-placeholder{color: #999}\n        .error :-ms-input-placeholder{color: #999}\n        \n    "]
     }),

@@ -15,16 +15,30 @@ var EventDetailsComponent = (function () {
     function EventDetailsComponent(eventService, route) {
         this.eventService = eventService;
         this.route = route;
+        this.addMode = false;
     }
     EventDetailsComponent.prototype.ngOnInit = function () {
         this.event = this.eventService.getEvent(+this.route.snapshot.params['id']);
+    };
+    EventDetailsComponent.prototype.addSession = function () {
+        this.addMode = true;
+    };
+    EventDetailsComponent.prototype.saveNewSession = function (session) {
+        var nextId = Math.max.apply(null, this.event.sessions.map(function (s) { return s.id; }));
+        session.id = nextId + 1;
+        this.event.sessions.push(session);
+        this.eventService.updateEvent(this.event);
+        this.addMode = false;
+    };
+    EventDetailsComponent.prototype.cancelSaveSession = function () {
+        this.addMode = false;
     };
     return EventDetailsComponent;
 }());
 EventDetailsComponent = __decorate([
     core_1.Component({
         templateUrl: "/app/events/event-details/event-details.component.html",
-        styles: ["\n        .container {padding-left: 20px; padding-right: 20px;}\n        .event-image {height: 100px}\n    "]
+        styles: ["\n        .container {padding-left: 20px; padding-right: 20px;}\n        .event-image {height: 100px}\n        a {cursor: pointer}\n    "]
     }),
     __metadata("design:paramtypes", [event_service_1.EventService, router_1.ActivatedRoute])
 ], EventDetailsComponent);
