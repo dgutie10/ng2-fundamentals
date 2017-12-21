@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78c8c01-606b-489f-b042-4fcacc56e475" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/common/collapsible-well.component.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
       <change beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
       <change beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.ts" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/create-session.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/create-session.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/create-session.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/create-session.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/create-session.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/create-session.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/create-session.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/create-session.component.ts" />
       <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.js" afterPath="$PROJECT_DIR$/app/events/event-details/index.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.ts" afterPath="$PROJECT_DIR$/app/events/event-details/index.ts" />
+      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +28,8 @@
             <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/app.module.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <state relative-caret-position="555">
+                    <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
                     <folding>
                       <element signature="e#0#39#0" expanded="true" />
                     </folding>
@@ -114,20 +101,70 @@
       <file leaf-file-name="session-list.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#div#0;n#collapsible-well#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-details.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session-list.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="event-details.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collapsible-well.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/common/collapsible-well.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <marker date="1513826768769" expanded="true" signature="171:360" ph="..." />
+                <marker date="1513826768769" expanded="true" signature="188:270" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#4248#6422#0" expanded="false" />
+                <element signature="e#6780#10040#0" expanded="false" />
+                <element signature="e#10398#12129#0" expanded="false" />
+                <element signature="e#12481#13103#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,8 +175,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -193,14 +231,15 @@
         <option value="$PROJECT_DIR$/app/events/create-event.component.html" />
         <option value="$PROJECT_DIR$/app/events/Shared/restricted-words.validator.ts" />
         <option value="$PROJECT_DIR$/app/events/Shared/index.ts" />
-        <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/index.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" />
         <option value="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/create-session.component.html" />
         <option value="$PROJECT_DIR$/app/events/event-details/create-session.component.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/common/collapsible-well.component.ts" />
+        <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
         <option value="$PROJECT_DIR$/app/events/event-details/event-details.component.html" />
       </list>
     </option>
@@ -273,6 +312,12 @@
               <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,12 +380,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513130513287</updated>
       <workItem from="1513130514380" duration="29211000" />
-      <workItem from="1513705073907" duration="17769000" />
+      <workItem from="1513705073907" duration="19553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46980000" />
+    <option name="totallyTimeSpent" value="48764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
@@ -391,6 +436,8 @@
         <option value="$PROJECT_DIR$/app/events/Shared/restricted-words.validator.js" />
         <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.js" />
         <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.js.map" />
+        <option value="$PROJECT_DIR$/app/common/collapsible-well.component.js" />
+        <option value="$PROJECT_DIR$/app/common/collapsible-well.component.js.map" />
       </list>
     </option>
   </component>
@@ -404,14 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/users/user.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/users/auth.services.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -595,6 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,35 +808,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-details/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#719#13608#0" expanded="false" />
-            <element signature="e#4248#6422#0" expanded="false" />
-            <element signature="e#6780#10040#0" expanded="false" />
-            <element signature="e#10398#12129#0" expanded="false" />
-            <element signature="e#12481#13103#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +832,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#4248#6422#0" expanded="false" />
+            <element signature="e#6780#10040#0" expanded="false" />
+            <element signature="e#10398#12129#0" expanded="false" />
+            <element signature="e#12481#13103#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/collapsible-well.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1513826768769" expanded="true" signature="171:360" ph="..." />
+            <marker date="1513826768769" expanded="true" signature="188:270" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#collapsible-well#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -826,29 +904,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="121" lean-forward="false" selection-start-line="38" selection-start-column="121" selection-end-line="38" selection-end-column="121" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="405">
+          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-details/session-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

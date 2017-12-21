@@ -19,6 +19,7 @@ var routes_1 = require("./routes");
 var _404_componetn_1 = require("./errors/404.componetn");
 var auth_services_1 = require("./users/auth.services");
 var forms_1 = require("@angular/forms");
+var collapsible_well_component_1 = require("./common/collapsible-well.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -41,7 +42,8 @@ AppModule = __decorate([
             index_1.CreateEventComponent,
             _404_componetn_1.Error404Component,
             index_1.CreateSessionComponent,
-            index_1.SessionListComponent
+            index_1.SessionListComponent,
+            collapsible_well_component_1.CollapsibleWellComponent
         ],
         providers: [
             index_1.EventService,
