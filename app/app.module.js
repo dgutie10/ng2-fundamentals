@@ -43,16 +43,19 @@ AppModule = __decorate([
             _404_componetn_1.Error404Component,
             index_1.CreateSessionComponent,
             index_1.SessionListComponent,
-            collapsible_well_component_1.CollapsibleWellComponent
+            collapsible_well_component_1.CollapsibleWellComponent,
+            index_1.DurationPipe
         ],
         providers: [
             index_1.EventService,
-            toastr_services_1.ToastrServices,
             index_1.EventRouteActivator,
             index_1.EventsListResolver,
             auth_services_1.AuthServices,
             {
                 provide: 'canDeactivateCreateEvent', useValue: checkDirtyState
+            },
+            {
+                provide: toastr_services_1.TOASTR_TOKEN, useValue: toastr
             }
         ],
         bootstrap: [events_app_component_1.EventsAppComponent]
