@@ -20,6 +20,9 @@ var _404_componetn_1 = require("./errors/404.componetn");
 var auth_services_1 = require("./users/auth.services");
 var forms_1 = require("@angular/forms");
 var collapsible_well_component_1 = require("./common/collapsible-well.component");
+var jQuery_service_1 = require("./common/jQuery.service");
+var simpleModal_component_1 = require("./common/simpleModal.component");
+var modal_trigger_directive_1 = require("./common/modal-trigger.directive");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -44,7 +47,9 @@ AppModule = __decorate([
             index_1.CreateSessionComponent,
             index_1.SessionListComponent,
             collapsible_well_component_1.CollapsibleWellComponent,
-            index_1.DurationPipe
+            index_1.DurationPipe,
+            simpleModal_component_1.SimpleModalComponent,
+            modal_trigger_directive_1.ModalTriggerDirective
         ],
         providers: [
             index_1.EventService,
@@ -56,6 +61,9 @@ AppModule = __decorate([
             },
             {
                 provide: toastr_services_1.TOASTR_TOKEN, useValue: toastr
+            },
+            {
+                provide: jQuery_service_1.JQUERY_TOKEN, useValue: jQuery
             }
         ],
         bootstrap: [events_app_component_1.EventsAppComponent]

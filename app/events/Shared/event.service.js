@@ -30,6 +30,21 @@ var EventService = (function () {
         var index = EVENTS.findIndex(function (e) { return e.id = event.id; });
         EVENTS[index] = event;
     };
+    EventService.prototype.searchSession = function (searchTerm) {
+        var term = searchTerm.toLocaleLowerCase();
+        var results = [];
+        EVENTS.forEach(function (event) {
+            var matchingSessions = event.sessions.filter(function (sesssion) { return sesssion.name.toLocaleLowerCase().indexOf(term) > -1; });
+            matchingSessions = matchingSessions.map(function (session) {
+                session.eventId = event.id;
+                return session;
+            });
+            results = results.concat(matchingSessions);
+        });
+        var emitter = new core_1.EventEmitter(true);
+        setTimeout(function () { emitter.emit(results); }, 100);
+        return emitter;
+    };
     return EventService;
 }());
 EventService = __decorate([

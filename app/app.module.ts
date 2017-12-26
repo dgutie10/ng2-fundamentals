@@ -20,8 +20,13 @@ import {Error404Component} from "./errors/404.componetn";
 import {AuthServices} from "./users/auth.services";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {CollapsibleWellComponent} from "./common/collapsible-well.component";
+import {JQUERY_TOKEN} from "./common/jQuery.service";
+import {SimpleModalComponent} from "./common/simpleModal.component";
+import {ModalTriggerDirective} from "./common/modal-trigger.directive";
 
 declare let toastr:Toastr
+
+declare let jQuery:Object;
 
 @NgModule ({
     imports: [
@@ -41,7 +46,9 @@ declare let toastr:Toastr
         CreateSessionComponent,
         SessionListComponent,
         CollapsibleWellComponent,
-        DurationPipe
+        DurationPipe,
+        SimpleModalComponent,
+        ModalTriggerDirective
     ],
     providers:[
         EventService,
@@ -53,6 +60,9 @@ declare let toastr:Toastr
         },
         {
             provide: TOASTR_TOKEN, useValue: toastr
+        },
+        {
+            provide: JQUERY_TOKEN, useValue: jQuery
         }
 
     ],

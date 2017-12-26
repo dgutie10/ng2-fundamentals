@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78c8c01-606b-489f-b042-4fcacc56e475" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/events/Shared/duration.pipe.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/common/jQuery.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/common/modal-trigger.directive.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/common/simpleModal.component.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
       <change beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
       <change beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/app/common/toastr.services.js" afterPath="$PROJECT_DIR$/app/common/toastr.services.js" />
-      <change beforePath="$PROJECT_DIR$/app/common/toastr.services.js.map" afterPath="$PROJECT_DIR$/app/common/toastr.services.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/toastr.services.ts" afterPath="$PROJECT_DIR$/app/common/toastr.services.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/index.js" afterPath="$PROJECT_DIR$/app/events/Shared/index.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/index.js.map" afterPath="$PROJECT_DIR$/app/events/Shared/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/index.ts" afterPath="$PROJECT_DIR$/app/events/Shared/index.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" />
+      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js" />
+      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" />
+      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.ts" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
       <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" />
       <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" />
       <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-thumbnail.component.js" afterPath="$PROJECT_DIR$/app/events/event-thumbnail.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-thumbnail.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-thumbnail.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-thumbnail.component.ts" afterPath="$PROJECT_DIR$/app/events/event-thumbnail.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list.component.js" afterPath="$PROJECT_DIR$/app/events/events-list.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list.component.js.map" afterPath="$PROJECT_DIR$/app/events/events-list.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list.component.ts" afterPath="$PROJECT_DIR$/app/events/events-list.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.js" afterPath="$PROJECT_DIR$/app/users/profile.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.js.map" afterPath="$PROJECT_DIR$/app/users/profile.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.ts" afterPath="$PROJECT_DIR$/app/users/profile.component.ts" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.html" afterPath="$PROJECT_DIR$/app/nav/navbar.component.html" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js.map" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js.map" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.ts" afterPath="$PROJECT_DIR$/app/nav/navbar.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,114 +30,64 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="159">
-                    <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-                    <folding>
-                      <element signature="e#0#39#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="routes.ts" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/routes.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="105">
-                    <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/events/index.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="75">
-                    <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="user.routes.ts" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/users/user.routes.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="75">
-                    <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-                    <folding>
-                      <element signature="e#0#39#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="user.module.ts" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/users/user.module.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="75">
-                    <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-                    <folding>
-                      <element signature="e#0#39#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="event.model.ts" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/events/Shared/event.model.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="345">
-                    <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="profile.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/users/profile.component.ts">
+      <file leaf-file-name="simpleModal.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/common/simpleModal.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events-list.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
               <folding>
-                <marker date="1513970773919" expanded="true" signature="226:520" ph="..." />
-                <marker date="1513970773919" expanded="true" signature="321:505" ph="..." />
-                <marker date="1513970773919" expanded="true" signature="389:486" ph="..." />
+                <element signature="e#0#78#0" expanded="true" />
+                <marker date="1514323982526" expanded="true" signature="264:785" ph="..." />
+                <marker date="1514323982526" expanded="true" signature="302:771" ph="..." />
+                <marker date="1514323982526" expanded="true" signature="345:753" ph="..." />
+                <marker date="1514323982526" expanded="true" signature="391:589" ph="..." />
+                <marker date="1514323982526" expanded="true" signature="479:486" ph="×" />
+                <marker date="1514323982526" expanded="true" signature="656:731" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toastr.services.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/common/toastr.services.ts">
+      <file leaf-file-name="metadata.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/di/metadata.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal-trigger.directive.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/common/modal-trigger.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +106,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>user</find>
+      <find>cosole</find>
+      <find>consol</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/events/event-details/event-details.component.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/errors/404.componetn.ts" />
         <option value="$PROJECT_DIR$/app/assets/events/event-details/error-route-activator.service.ts" />
         <option value="$PROJECT_DIR$/app/assets/events/Shared/create-event.component.ts" />
         <option value="$PROJECT_DIR$/app/assets/events/Shared/events-list-resolver.service.ts" />
@@ -199,8 +137,6 @@
         <option value="$PROJECT_DIR$/app/assets/main.ts" />
         <option value="$PROJECT_DIR$/app/users/user.routes.ts" />
         <option value="$PROJECT_DIR$/app/users/user.model.ts" />
-        <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
-        <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
         <option value="$PROJECT_DIR$/app/users/login.component.ts" />
         <option value="$PROJECT_DIR$/app/users/login.component.html" />
         <option value="$PROJECT_DIR$/app/users/user.module.ts" />
@@ -211,7 +147,6 @@
         <option value="$PROJECT_DIR$/app/events/create-event.component.html" />
         <option value="$PROJECT_DIR$/app/events/Shared/restricted-words.validator.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/index.ts" />
-        <option value="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/create-session.component.html" />
         <option value="$PROJECT_DIR$/app/events/event-details/create-session.component.ts" />
         <option value="$PROJECT_DIR$/app/common/collapsible-well.component.ts" />
@@ -219,13 +154,19 @@
         <option value="$PROJECT_DIR$/app/events/Shared/duration.pipe.ts" />
         <option value="$PROJECT_DIR$/app/events/Shared/index.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.html" />
-        <option value="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/event-details.component.html" />
         <option value="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" />
         <option value="$PROJECT_DIR$/app/common/toastr.services.ts" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/events/events-list.component.ts" />
         <option value="$PROJECT_DIR$/app/users/profile.component.ts" />
+        <option value="$PROJECT_DIR$/app/common/jQuery.service.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
+        <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/app/common/modal-trigger.directive.ts" />
+        <option value="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
+        <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
+        <option value="$PROJECT_DIR$/app/common/simpleModal.component.ts" />
       </list>
     </option>
   </component>
@@ -303,13 +244,7 @@
               <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,15 +295,15 @@
       <workItem from="1513130514380" duration="29211000" />
       <workItem from="1513705073907" duration="19619000" />
       <workItem from="1513873394780" duration="6891000" />
-      <workItem from="1513961704685" duration="2254000" />
+      <workItem from="1513961704685" duration="10540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57975000" />
+    <option name="totallyTimeSpent" value="66261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="39" width="1920" height="1178" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -420,6 +355,12 @@
         <option value="$PROJECT_DIR$/app/common/collapsible-well.component.js.map" />
         <option value="$PROJECT_DIR$/app/events/Shared/duration.pipe.js.map" />
         <option value="$PROJECT_DIR$/app/events/Shared/duration.pipe.js" />
+        <option value="$PROJECT_DIR$/app/common/jQuery.service.js" />
+        <option value="$PROJECT_DIR$/app/common/jQuery.service.js.map" />
+        <option value="$PROJECT_DIR$/app/common/simpleModal.component.js.map" />
+        <option value="$PROJECT_DIR$/app/common/simpleModal.component.js" />
+        <option value="$PROJECT_DIR$/app/common/modal-trigger.directive.js.map" />
+        <option value="$PROJECT_DIR$/app/common/modal-trigger.directive.js" />
       </list>
     </option>
   </component>
@@ -428,56 +369,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding>
-            <element signature="e#4248#6422#0" expanded="false" />
-            <element signature="e#6780#10040#0" expanded="false" />
-            <element signature="e#10398#12129#0" expanded="false" />
-            <element signature="e#12481#13103#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/users/user.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,7 +389,7 @@
         <state relative-caret-position="240">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,6 +459,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,23 +489,6 @@
         <state relative-caret-position="240">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,23 +563,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="834">
           <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/common/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#4248#6422#0" expanded="false" />
-            <element signature="e#6780#10040#0" expanded="false" />
-            <element signature="e#10398#12129#0" expanded="false" />
-            <element signature="e#12481#13103#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/common/collapsible-well.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -731,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -755,30 +621,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/users/user.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="105">
           <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/users/user.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="165">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -855,9 +703,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/users/profile.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="690">
+          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/jQuery.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#1395#14284#0" expanded="false" />
+            <element signature="e#4924#7098#0" expanded="false" />
+            <element signature="e#7456#10716#0" expanded="false" />
+            <element signature="e#11074#12805#0" expanded="false" />
+            <element signature="e#13157#13779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="111" lean-forward="false" selection-start-line="24" selection-start-column="111" selection-end-line="24" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/di/metadata.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/modal-trigger.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/simpleModal.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+            <marker date="1514323982526" expanded="true" signature="264:785" ph="..." />
+            <marker date="1514323982526" expanded="true" signature="302:771" ph="..." />
+            <marker date="1514323982526" expanded="true" signature="345:753" ph="..." />
+            <marker date="1514323982526" expanded="true" signature="391:589" ph="..." />
+            <marker date="1514323982526" expanded="true" signature="479:486" ph="×" />
+            <marker date="1514323982526" expanded="true" signature="656:731" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
