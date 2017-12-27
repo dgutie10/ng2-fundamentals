@@ -7,5 +7,6 @@ __export(require("./event-thumbnail.component"));
 __export(require("./events-list-resolver.service"));
 __export(require("./events-list.component"));
 __export(require("./Shared/index"));
+__export(require("./location-validator.directive"));
 __export(require("./event-details/index"));
 //# sourceMappingURL=index.js.map

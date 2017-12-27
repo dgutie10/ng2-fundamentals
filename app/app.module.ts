@@ -10,7 +10,10 @@ import {
     EventsListResolver,
     CreateSessionComponent,
     SessionListComponent,
-    DurationPipe} from './events/index'
+    DurationPipe,
+    UpvoteComponent,
+    VoterService,
+    LocationValidator} from './events/index'
 import {EventsAppComponent} from "./events-app.component";
 import {NavBarComponent} from "./nav/navbar.component";
 import {Toastr, TOASTR_TOKEN} from "./common/toastr.services";
@@ -48,13 +51,17 @@ declare let jQuery:Object;
         CollapsibleWellComponent,
         DurationPipe,
         SimpleModalComponent,
-        ModalTriggerDirective
+        ModalTriggerDirective,
+        UpvoteComponent,
+        LocationValidator
     ],
     providers:[
         EventService,
         EventRouteActivator,
         EventsListResolver,
         AuthServices,
+        VoterService,
+        LocationValidator,
         {
             provide:'canDeactivateCreateEvent', useValue:checkDirtyState
         },

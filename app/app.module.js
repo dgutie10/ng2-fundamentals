@@ -49,13 +49,17 @@ AppModule = __decorate([
             collapsible_well_component_1.CollapsibleWellComponent,
             index_1.DurationPipe,
             simpleModal_component_1.SimpleModalComponent,
-            modal_trigger_directive_1.ModalTriggerDirective
+            modal_trigger_directive_1.ModalTriggerDirective,
+            index_1.UpvoteComponent,
+            index_1.LocationValidator
         ],
         providers: [
             index_1.EventService,
             index_1.EventRouteActivator,
             index_1.EventsListResolver,
             auth_services_1.AuthServices,
+            index_1.VoterService,
+            index_1.LocationValidator,
             {
                 provide: 'canDeactivateCreateEvent', useValue: checkDirtyState
             },
