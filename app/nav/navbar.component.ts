@@ -1,6 +1,8 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
 import {AuthServices} from "../users/auth.services";
 import {EventService, ISession} from "../events/index";
+import {IEvent} from "../events/Shared";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
     selector: 'nav-bar',
@@ -15,11 +17,18 @@ import {EventService, ISession} from "../events/index";
 
 })
 
-export class NavBarComponent{
+export class NavBarComponent implements  OnInit{
     searchTerm: string
     foundSessions: ISession []
+    events: IEvent[]
 
-    constructor (private authService:AuthServices, private eventService:EventService){}
+    constructor (private authService:AuthServices, private eventService:EventService, private route:ActivatedRoute){}
+
+    ngOnInit(){
+        // this.events = this.route.snapshot.data['events'];
+        this.eventService.getEvents().subscribe(events => {this.events = events});
+        console.log(this.events);
+    }
 
     searchSessions(searchTerm){
         this.eventService.searchSession(searchTerm).subscribe(sessions => {this.foundSessions = sessions});

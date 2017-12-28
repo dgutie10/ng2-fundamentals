@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78c8c01-606b-489f-b042-4fcacc56e475" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/events/event-resolver.service.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
-      <change beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events-app.component.js" afterPath="$PROJECT_DIR$/app/events-app.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events-app.component.js.map" afterPath="$PROJECT_DIR$/app/events-app.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events-app.component.ts" afterPath="$PROJECT_DIR$/app/events-app.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/Shared/event.service.ts" afterPath="$PROJECT_DIR$/app/events/Shared/event.service.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/create-event.component.js" afterPath="$PROJECT_DIR$/app/events/create-event.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/create-event.component.js.map" afterPath="$PROJECT_DIR$/app/events/create-event.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/create-event.component.ts" afterPath="$PROJECT_DIR$/app/events/create-event.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/error-route-activator.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/error-route-activator.service.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/error-route-activator.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/event-details.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.js" afterPath="$PROJECT_DIR$/app/events/event-details/index.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/index.ts" afterPath="$PROJECT_DIR$/app/events/event-details/index.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.js" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" afterPath="$PROJECT_DIR$/app/events/event-details/session-list.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/voter.service.js" afterPath="$PROJECT_DIR$/app/events/event-details/voter.service.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/voter.service.js.map" afterPath="$PROJECT_DIR$/app/events/event-details/voter.service.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/event-details/voter.service.ts" afterPath="$PROJECT_DIR$/app/events/event-details/voter.service.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list-resolver.service.js" afterPath="$PROJECT_DIR$/app/events/events-list-resolver.service.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list-resolver.service.js.map" afterPath="$PROJECT_DIR$/app/events/events-list-resolver.service.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/events-list-resolver.service.ts" afterPath="$PROJECT_DIR$/app/events/events-list-resolver.service.ts" />
-      <change beforePath="$PROJECT_DIR$/app/events/index.js" afterPath="$PROJECT_DIR$/app/events/index.js" />
-      <change beforePath="$PROJECT_DIR$/app/events/index.js.map" afterPath="$PROJECT_DIR$/app/events/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/events/index.ts" afterPath="$PROJECT_DIR$/app/events/index.ts" />
-      <change beforePath="$PROJECT_DIR$/app/routes.js" afterPath="$PROJECT_DIR$/app/routes.js" />
-      <change beforePath="$PROJECT_DIR$/app/routes.js.map" afterPath="$PROJECT_DIR$/app/routes.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" afterPath="$PROJECT_DIR$/app/routes.ts" />
-      <change beforePath="$PROJECT_DIR$/app/users/auth.services.js" afterPath="$PROJECT_DIR$/app/users/auth.services.js" />
-      <change beforePath="$PROJECT_DIR$/app/users/auth.services.js.map" afterPath="$PROJECT_DIR$/app/users/auth.services.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/users/auth.services.ts" afterPath="$PROJECT_DIR$/app/users/auth.services.ts" />
-      <change beforePath="$PROJECT_DIR$/app/users/login.component.html" afterPath="$PROJECT_DIR$/app/users/login.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/users/login.component.js" afterPath="$PROJECT_DIR$/app/users/login.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/users/login.component.js.map" afterPath="$PROJECT_DIR$/app/users/login.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/users/login.component.ts" afterPath="$PROJECT_DIR$/app/users/login.component.ts" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.html" afterPath="$PROJECT_DIR$/app/users/profile.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.js" afterPath="$PROJECT_DIR$/app/users/profile.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.js.map" afterPath="$PROJECT_DIR$/app/users/profile.component.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/users/profile.component.ts" afterPath="$PROJECT_DIR$/app/users/profile.component.ts" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.html" afterPath="$PROJECT_DIR$/app/nav/navbar.component.html" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js.map" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js.map" />
+      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.ts" afterPath="$PROJECT_DIR$/app/nav/navbar.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,46 +54,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auth.services.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/users/auth.services.ts">
+      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/users/login.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/users/profile.component.ts">
+      <file leaf-file-name="event.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#1437#14326#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/users/profile.component.html">
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="88" lean-forward="false" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
-              <folding>
-                <element signature="n#style#0;n#button#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="109" lean-forward="false" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,9 +134,7 @@
         <option value="$PROJECT_DIR$/app/common/toastr.services.ts" />
         <option value="$PROJECT_DIR$/app/events/events-list.component.ts" />
         <option value="$PROJECT_DIR$/app/common/jQuery.service.ts" />
-        <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
         <option value="$PROJECT_DIR$/app/common/modal-trigger.directive.ts" />
-        <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
         <option value="$PROJECT_DIR$/app/common/simpleModal.component.ts" />
         <option value="$PROJECT_DIR$/app/events/event-details/upvote-component.css" />
         <option value="$PROJECT_DIR$/app/events/event-details/upvote-component.ts" />
@@ -220,6 +162,8 @@
         <option value="$PROJECT_DIR$/app/users/profile.component.html" />
         <option value="$PROJECT_DIR$/app/users/login.component.ts" />
         <option value="$PROJECT_DIR$/app/users/profile.component.ts" />
+        <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
+        <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
       </list>
     </option>
   </component>
@@ -291,7 +235,13 @@
               <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,12 +305,12 @@
       <workItem from="1513705073907" duration="19619000" />
       <workItem from="1513873394780" duration="6891000" />
       <workItem from="1513961704685" duration="16922000" />
-      <workItem from="1514336219743" duration="11680000" />
+      <workItem from="1514336219743" duration="12605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84323000" />
+    <option name="totallyTimeSpent" value="85248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="39" width="1920" height="1178" extended-state="0" />
@@ -557,18 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1513970773919" expanded="true" signature="226:520" ph="..." />
-            <marker date="1513970773919" expanded="true" signature="321:505" ph="..." />
-            <marker date="1513970773919" expanded="true" signature="389:486" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/common/jQuery.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -581,14 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,14 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/events-list-resolver.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -740,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/create-event.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-details/event-details.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -763,14 +677,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,17 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#1437#14326#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/users/auth.services.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -863,20 +758,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/users/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/create-event.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/events-list-resolver.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <marker date="1513970773919" expanded="true" signature="226:520" ph="..." />
+            <marker date="1513970773919" expanded="true" signature="321:505" ph="..." />
+            <marker date="1513970773919" expanded="true" signature="389:486" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/users/profile.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="88" lean-forward="false" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#button#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/users/profile.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="109" lean-forward="false" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/Shared/event.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#1437#14326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
           <folding />
         </state>
       </provider>
