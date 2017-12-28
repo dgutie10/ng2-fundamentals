@@ -15,7 +15,7 @@ var EventsListResolver = (function () {
         this.eventService = eventService;
     }
     EventsListResolver.prototype.resolve = function () {
-        return this.eventService.getEvents().map(function (events) { return events; });
+        return this.eventService.getEvents();
     };
     return EventsListResolver;
 }());

@@ -9,16 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+var Observable_1 = require("rxjs/Observable");
+var http_1 = require("@angular/http");
 var AuthServices = (function () {
-    function AuthServices() {
+    function AuthServices(http) {
+        this.http = http;
     }
     AuthServices.prototype.loginUser = function (userName, password) {
-        this.currentUser = {
-            id: 1,
-            userName: userName,
-            firstName: "CTX",
-            lastName: "Tester"
-        };
+        var _this = this;
+        var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
+        var options = new http_1.RequestOptions({ headers: headers });
+        var loginInfo = { username: userName.toLocaleLowerCase(), password: password };
+        return this.http.post('/api/login', JSON.stringify(loginInfo), options).do(function (response) {
+            _this.currentUser = response.json().user;
+        }).catch(function (error) {
+            return Observable_1.Observable.of(false);
+        });
     };
     AuthServices.prototype.isAuthenticated = function () {
         return !!this.currentUser;
@@ -26,12 +32,36 @@ var AuthServices = (function () {
     AuthServices.prototype.updateCurrentUser = function (firstName, lastName) {
         this.currentUser.firstName = firstName;
         this.currentUser.lastName = lastName;
+        var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
+        var options = new http_1.RequestOptions({ headers: headers });
+        return this.http.put("api/users/" + this.currentUser.id, JSON.stringify(this.currentUser), options);
+    };
+    AuthServices.prototype.checkAuthenticationStatus = function () {
+        var _this = this;
+        return this.http.get('/api/currentIdentity').map(function (response) {
+            if (response._body) {
+                return response.json();
+            }
+            else {
+                return {};
+            }
+        }).do(function (currentUser) {
+            if (!!currentUser.userName) {
+                _this.currentUser = currentUser;
+            }
+        }).subscribe();
+    };
+    AuthServices.prototype.logout = function () {
+        this.currentUser = undefined;
+        var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
+        var options = new http_1.RequestOptions({ headers: headers });
+        return this.http.post('/api/logout', JSON.stringify({}), options);
     };
     return AuthServices;
 }());
 AuthServices = __decorate([
     core_1.Injectable(),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [http_1.Http])
 ], AuthServices);
 exports.AuthServices = AuthServices;
 //# sourceMappingURL=auth.services.js.map

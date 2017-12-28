@@ -34,9 +34,11 @@ var ProfileComponent = (function () {
         this.router.navigate(['events']);
     };
     ProfileComponent.prototype.saveProfile = function (formValues) {
+        var _this = this;
         if (this.profileForm.valid) {
-            this.authService.updateCurrentUser(formValues.firstName, formValues.lastName);
-            this.toastr.success("Profile Changed with : " + formValues.firstName + " " + formValues.lastName);
+            this.authService.updateCurrentUser(formValues.firstName, formValues.lastName).subscribe(function () {
+                _this.toastr.success("Profile Changed with : " + formValues.firstName + " " + formValues.lastName);
+            });
             this.router.navigate(['events']);
         }
     };
@@ -45,6 +47,13 @@ var ProfileComponent = (function () {
     };
     ProfileComponent.prototype.validateFirstName = function () {
         return this.firstName.valid || this.firstName.touched;
+    };
+    ProfileComponent.prototype.logout = function () {
+        var _this = this;
+        this.authService.logout().subscribe(function () {
+            _this.router.navigate(['/user/login']);
+            _this.toastr.success("User successfully Logged out");
+        });
     };
     return ProfileComponent;
 }());

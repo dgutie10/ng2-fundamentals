@@ -6,7 +6,7 @@ import {
     EventService,
     EventDetailsComponent,
     CreateEventComponent,
-    EventRouteActivator,
+    EventResolver,
     EventsListResolver,
     CreateSessionComponent,
     SessionListComponent,
@@ -26,6 +26,7 @@ import {CollapsibleWellComponent} from "./common/collapsible-well.component";
 import {JQUERY_TOKEN} from "./common/jQuery.service";
 import {SimpleModalComponent} from "./common/simpleModal.component";
 import {ModalTriggerDirective} from "./common/modal-trigger.directive";
+import {HttpModule} from "@angular/http";
 
 declare let toastr:Toastr
 
@@ -36,6 +37,7 @@ declare let jQuery:Object;
         BrowserModule,
         FormsModule,
         ReactiveFormsModule,
+        HttpModule,
         RouterModule.forRoot(appRoutes)
     ],
     declarations : [
@@ -57,7 +59,7 @@ declare let jQuery:Object;
     ],
     providers:[
         EventService,
-        EventRouteActivator,
+        EventResolver,
         EventsListResolver,
         AuthServices,
         VoterService,

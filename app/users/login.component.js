@@ -8,17 +8,30 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 var core_1 = require("@angular/core");
 var auth_services_1 = require("./auth.services");
 var router_1 = require("@angular/router");
+var toastr_services_1 = require("../common/toastr.services");
 var LoginComponent = (function () {
-    function LoginComponent(authService, router) {
+    function LoginComponent(authService, router, toastr) {
         this.authService = authService;
         this.router = router;
+        this.toastr = toastr;
+        this.loginInvalid = false;
     }
     LoginComponent.prototype.login = function (formValues) {
-        this.authService.loginUser(formValues.userName, formValues.password);
-        this.router.navigate(['events']);
+        var _this = this;
+        this.authService.loginUser(formValues.userName, formValues.password).subscribe(function (resp) {
+            if (!resp) {
+                _this.loginInvalid = true;
+            }
+            else {
+                _this.router.navigate(['events']);
+            }
+        });
     };
     LoginComponent.prototype.cancel = function () {
         this.router.navigate(['events']);
@@ -30,7 +43,8 @@ LoginComponent = __decorate([
         templateUrl: "app/users/login.component.html",
         styles: ["\n        em {float:right; color:#E05C65; padding-left:10px;}\n    "]
     }),
-    __metadata("design:paramtypes", [auth_services_1.AuthServices, router_1.Router])
+    __param(2, core_1.Inject(toastr_services_1.TOASTR_TOKEN)),
+    __metadata("design:paramtypes", [auth_services_1.AuthServices, router_1.Router, Object])
 ], LoginComponent);
 exports.LoginComponent = LoginComponent;
 //# sourceMappingURL=login.component.js.map

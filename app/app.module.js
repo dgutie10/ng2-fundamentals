@@ -23,6 +23,7 @@ var collapsible_well_component_1 = require("./common/collapsible-well.component"
 var jQuery_service_1 = require("./common/jQuery.service");
 var simpleModal_component_1 = require("./common/simpleModal.component");
 var modal_trigger_directive_1 = require("./common/modal-trigger.directive");
+var http_1 = require("@angular/http");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -34,6 +35,7 @@ AppModule = __decorate([
             platform_browser_1.BrowserModule,
             forms_1.FormsModule,
             forms_1.ReactiveFormsModule,
+            http_1.HttpModule,
             router_1.RouterModule.forRoot(routes_1.appRoutes)
         ],
         declarations: [
@@ -55,7 +57,7 @@ AppModule = __decorate([
         ],
         providers: [
             index_1.EventService,
-            index_1.EventRouteActivator,
+            index_1.EventResolver,
             index_1.EventsListResolver,
             auth_services_1.AuthServices,
             index_1.VoterService,

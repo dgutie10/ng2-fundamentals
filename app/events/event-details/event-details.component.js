@@ -21,8 +21,10 @@ var EventDetailsComponent = (function () {
     }
     EventDetailsComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.route.params.forEach(function (params) { _this.event = _this.eventService.getEvent(+params['id']); });
-        this.addMode = false;
+        this.route.data.forEach(function (data) {
+            _this.event = data['event'];
+            _this.addMode = false;
+        });
     };
     EventDetailsComponent.prototype.addSession = function () {
         this.addMode = true;
@@ -31,7 +33,7 @@ var EventDetailsComponent = (function () {
         var nextId = Math.max.apply(null, this.event.sessions.map(function (s) { return s.id; }));
         session.id = nextId + 1;
         this.event.sessions.push(session);
-        this.eventService.updateEvent(this.event);
+        this.eventService.saveEvent(this.event).subscribe();
         this.addMode = false;
     };
     EventDetailsComponent.prototype.cancelSaveSession = function () {
