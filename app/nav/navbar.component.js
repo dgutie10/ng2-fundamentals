@@ -22,7 +22,6 @@ var NavBarComponent = (function () {
         var _this = this;
         // this.events = this.route.snapshot.data['events'];
         this.eventService.getEvents().subscribe(function (events) { _this.events = events; });
-        console.log(this.events);
     };
     NavBarComponent.prototype.searchSessions = function (searchTerm) {
         var _this = this;

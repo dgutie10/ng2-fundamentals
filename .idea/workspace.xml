@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78c8c01-606b-489f-b042-4fcacc56e475" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.html" afterPath="$PROJECT_DIR$/app/nav/navbar.component.html" />
-      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js" />
-      <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.js.map" afterPath="$PROJECT_DIR$/app/nav/navbar.component.js.map" />
       <change beforePath="$PROJECT_DIR$/app/nav/navbar.component.ts" afterPath="$PROJECT_DIR$/app/nav/navbar.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,8 +53,8 @@
       <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+            <state relative-caret-position="375">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -305,12 +301,12 @@
       <workItem from="1513705073907" duration="19619000" />
       <workItem from="1513873394780" duration="6891000" />
       <workItem from="1513961704685" duration="16922000" />
-      <workItem from="1514336219743" duration="12605000" />
+      <workItem from="1514336219743" duration="12663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85248000" />
+    <option name="totallyTimeSpent" value="85306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="39" width="1920" height="1178" extended-state="0" />
@@ -826,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        <state relative-caret-position="375">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>

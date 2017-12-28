@@ -27,7 +27,6 @@ export class NavBarComponent implements  OnInit{
     ngOnInit(){
         // this.events = this.route.snapshot.data['events'];
         this.eventService.getEvents().subscribe(events => {this.events = events});
-        console.log(this.events);
     }
 
     searchSessions(searchTerm){
