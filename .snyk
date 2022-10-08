@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ng2f-server > body-parser > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express-session > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > morgan > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > finalhandler > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > send > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > serve-static > send > debug:
+        patched: '2022-10-08T21:19:07.953Z'
+  'npm:mime:20170907':
+    - ng2f-server > express > send > mime:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > serve-static > send > mime:
+        patched: '2022-10-08T21:19:07.953Z'
+  'npm:ms:20170412':
+    - ng2f-server > body-parser > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express-session > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > morgan > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > send > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > finalhandler > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > send > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > serve-static > send > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+    - ng2f-server > express > serve-static > send > debug > ms:
+        patched: '2022-10-08T21:19:07.953Z'
+  'npm:negotiator:20160616':
+    - ng2f-server > express > accepts > negotiator:
+        patched: '2022-10-08T21:19:07.953Z'
+  'npm:qs:20170213':
+    - ng2f-server > body-parser > qs:
+        patched: '2022-10-08T21:19:07.953Z'
